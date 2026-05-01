@@ -13,7 +13,11 @@
     "recharts": "^2.8.0"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "browserslist": {
     "production": [
