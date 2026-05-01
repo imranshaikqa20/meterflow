@@ -1,8 +1,8 @@
-                                                         MeterFlow – Usage-Based API Billing Platform
+<h1 align="center"> MeterFlow – Usage-Based API Billing Platform/h1>
 
 
 
-1\. Introduction
+## 1. Introduction
 
 
 
@@ -10,25 +10,43 @@ MeterFlow is a real-time API usage tracking and billing platform designed to mon
 
 
 
-2\. Use Case
+## 2. Use Case
 
-MeterFlow can be effectively used in a wide range of real-world scenarios where API usage needs to be monitored, analyzed, and billed accurately. In payment gateway systems, it helps companies track every transaction-related API call made by clients, enabling precise billing and preventing misuse of services. Similarly, in weather data service platforms, users access real-time or forecast data through APIs, and MeterFlow ensures that billing is directly proportional to the number of requests made, making the system fair and transparent. In e-commerce platforms, where multiple microservices interact continuously—such as order management, inventory updates, shipping, and payments—MeterFlow helps monitor these internal API calls, allowing teams to evaluate system performance, detect bottlenecks, and improve efficiency.
+### 🔹 1. Payment Gateway Systems
 
-For SaaS-based products, MeterFlow plays a crucial role in implementing flexible pricing strategies like pay-per-use or tier-based billing, which are widely used in modern cloud services. AI and data analytics platforms can use it to track how often users request predictions, reports, or machine learning outputs, ensuring proper cost allocation for computational resources. In enterprise environments, it enables organizations to monitor API communication between different departments or services, helping identify unusual spikes in traffic that may indicate system issues or security threats.Developers benefit from MeterFlow by gaining insights into which APIs are most frequently used, allowing them to optimize performance and improve scalability. It also assists in debugging by logging API responses and status codes, making it easier to identify failures and fix issues quickly. Startups can leverage MeterFlow to build robust and scalable API billing systems without investing heavily in complex infrastructure, enabling faster product development and deployment. Additionally, it can be used in IoT systems to track device-to-server communication, in fintech applications for monitoring secure transactions, and in cloud platforms for managing service consumption. Overall, MeterFlow is highly versatile and can be applied to any system where APIs are central, ensuring efficient tracking, monitoring, optimization, and monetization of API usage.
+MeterFlow plays a crucial role in payment gateway platforms such as Razorpay and Stripe, where every transaction depends on multiple API calls. These APIs handle processes like payment initiation, authentication, verification, and status updates. MeterFlow continuously tracks each of these API requests for every client, ensuring that billing is calculated accurately based on actual usage rather than fixed estimates. This prevents misuse of services and protects businesses from revenue leakage caused by unmonitored API consumption. It also improves transparency by allowing clients to clearly understand how much they are being charged and why. Additionally, it helps in auditing financial transactions and identifying anomalies such as repeated failed requests or suspicious activity. By analyzing API usage patterns, companies can optimize their payment systems for better performance and reliability. Overall, MeterFlow ensures secure, efficient, and scalable transaction monitoring in fintech ecosystems.
+
+### 🔹 2. Cloud Service Platforms
+
+In cloud platforms like Amazon Web Services and Google Cloud Platform, MeterFlow helps manage and monitor API usage across various services such as storage, computing, and analytics. Every action performed in cloud environments is triggered through APIs, and MeterFlow captures these interactions in real time. This enables providers to implement pay-as-you-go pricing models, where users are charged only for the resources they consume. It also helps organizations understand which services are being used most frequently, allowing them to optimize costs and improve efficiency. By tracking API requests, MeterFlow can detect unusual spikes in usage that may indicate system issues or unauthorized access. It supports scalability by ensuring that billing systems can handle increasing numbers of users and services. Additionally, it provides valuable insights for capacity planning and infrastructure optimization. Overall, MeterFlow enhances transparency, cost control, and performance monitoring in cloud ecosystems.
+
+### 🔹 3. SaaS (Software as a Service) Products
+
+MeterFlow is highly beneficial for SaaS-based applications that rely on flexible pricing strategies. Modern SaaS platforms often offer tier-based or usage-based billing models, and MeterFlow enables accurate tracking of API consumption for each customer. By monitoring how frequently users access specific features through APIs, businesses can design pricing plans that align with actual usage patterns. This ensures fairness in billing and increases customer satisfaction. It also helps companies identify which features are most popular and which are underutilized, enabling better product improvements. MeterFlow supports subscription management by providing detailed usage reports for each user. It also assists in scaling the system as the number of customers grows, ensuring that billing remains accurate and efficient. Furthermore, it enhances transparency by giving customers visibility into their usage data. Overall, MeterFlow empowers SaaS businesses to implement reliable, scalable, and customer-friendly pricing strategies.
+
+### 🔹 4. AI & Data Analytics Platforms
+
+MeterFlow is widely applicable in AI platforms such as OpenAI, where APIs are used to request predictions, generate responses, or process large datasets. Each API call consumes computational resources, and MeterFlow tracks these requests to ensure accurate cost allocation. This is especially important in AI systems where resource usage can vary significantly depending on the complexity of tasks. By monitoring API activity, MeterFlow helps organizations understand user behavior and optimize resource distribution. It also enables fair billing by charging users based on the number and type of requests they make. Additionally, it provides insights into which models or services are most frequently used, helping improve performance and scalability. MeterFlow can also detect abnormal usage patterns that may indicate misuse or inefficiencies. Overall, it plays a key role in monetizing AI services and ensuring sustainable resource management.
+
+### 🔹 5. E-Commerce Platforms
+
+In e-commerce platforms like Amazon and Flipkart, MeterFlow helps monitor the complex network of APIs that power various operations. These include product searches, order placements, inventory updates, payment processing, and shipping services. Since modern e-commerce systems rely heavily on microservices, there is constant communication between different components through APIs. MeterFlow tracks these internal and external API calls, providing valuable insights into system performance. It helps identify bottlenecks or delays in specific services, enabling teams to optimize performance. Additionally, it supports scalability by ensuring that the system can handle high traffic during peak times such as sales events. MeterFlow also assists in debugging issues by logging API responses and error codes. Overall, it enhances operational efficiency and ensures smooth functioning of e-commerce platforms.
+
+### 🔹 6. Ride-Sharing Applications
+
+MeterFlow is highly useful in ride-sharing platforms like Uber and Ola Cabs, where APIs are used extensively for real-time operations. These include booking rides, calculating fares, tracking driver locations, and processing payments. MeterFlow monitors all these API interactions, providing insights into how the system performs under different conditions. It helps identify delays or failures in API responses, enabling faster issue resolution. By analyzing usage patterns, companies can optimize their services to improve user experience. MeterFlow also detects unusual spikes in API traffic, which may indicate system overload or potential security threats. Additionally, it supports scalability by ensuring that the platform can handle increasing user demand. Overall, MeterFlow contributes to efficient and reliable operation of ride-sharing systems.
+
+### 🔹 7. IoT (Internet of Things) Systems
+
+In IoT environments, where devices continuously communicate with servers through APIs, MeterFlow plays a vital role in tracking and monitoring these interactions. Each device sends data such as sensor readings, status updates, or alerts via APIs, and MeterFlow records every request. This helps organizations understand device activity and ensure smooth communication across the network. It also enables detection of anomalies, such as sudden spikes in data transmission or inactive devices. MeterFlow supports efficient data management by providing insights into usage patterns and system performance. Additionally, it helps in optimizing network resources and reducing operational costs. By monitoring API calls, organizations can ensure reliability and scalability of IoT systems. Overall, MeterFlow enhances visibility and control over complex device ecosystems.
+
+### 🔹 8. Healthcare Platforms
+
+MeterFlow is highly valuable in healthcare systems where APIs are used to manage sensitive data such as patient records, lab reports, and appointment scheduling. By tracking API usage, it ensures secure and controlled access to critical information. It also maintains detailed logs of all interactions, which are essential for compliance and auditing purposes. MeterFlow helps detect unauthorized access attempts or unusual activity, enhancing system security. Additionally, it improves system reliability by identifying performance issues in API communication. Healthcare providers can use these insights to optimize their digital infrastructure. MeterFlow also supports scalability as the number of users and services increases. Overall, it ensures efficient, secure, and transparent management of healthcare data systems.
 
 
 
-MeterFlow can be applied in several real-time industry scenarios where API usage directly impacts business operations and revenue. In fintech applications like payment gateways (e.g., Razorpay, Stripe), every transaction involves multiple API calls such as payment initiation, verification, and status checks. MeterFlow helps track these requests per client and enables accurate billing based on usage. In cloud service platforms (like AWS or Google Cloud), APIs are used for services such as storage, compute, and analytics, and MeterFlow can monitor how frequently each service is accessed, helping implement pay-as-you-go pricing models.
-
-In AI platforms (like OpenAI or data analytics services), users send API requests for predictions, chat responses, or data processing. MeterFlow can track each request and calculate costs based on usage, ensuring fair billing for computational resources. In ride-sharing applications (like Uber/Ola), APIs are used for booking rides, calculating fares, and tracking locations; MeterFlow can monitor these API interactions to analyze system performance and optimize services.
-
-In e-commerce systems (like Amazon or Flipkart), APIs handle product searches, order placements, and payment processing. MeterFlow helps track internal API communication between microservices and identify performance bottlenecks. In IoT systems, devices continuously send data to servers via APIs; MeterFlow can track these requests to monitor device activity and detect anomalies.In healthcare platforms, APIs are used for patient records, appointment booking, and lab reports. MeterFlow ensures secure and trackable access to sensitive data. In enterprise internal tools, it helps organizations monitor API usage across departments and detect unusual spikes that may indicate system issues. Startups building API-based products can use MeterFlow to quickly implement scalable billing and monitoring without building everything from scratch. Overall, these real-time use cases show that MeterFlow is highly relevant across industries where APIs are central to operations.
-
-
-
-
-
-3\. Industry Value \& Future Scope
+## 3. Industry Value & Future Scope
 
 
 
@@ -40,7 +58,7 @@ Looking at future scope, MeterFlow can be extended with advanced features such a
 
 
 
-4\. Roles – User \& Admin
+## 4. Roles – User \& Admin
 
 
 
@@ -50,11 +68,11 @@ The Admin role, on the other hand, has complete control over the system. Admins 
 
 
 
-5\. Tech Stack
+## 5. Tech Stack
 
 
 
-Frontend (React + UI Technologies)
+### Frontend (React + UI Technologies)
 
 
 
@@ -64,7 +82,7 @@ The frontend of the MeterFlow project is developed using React.js, which enables
 
 
 
-Backend (Spring Boot + Business Logic)
+### Backend (Spring Boot + Business Logic)
 
 
 
@@ -76,7 +94,7 @@ The backend of MeterFlow is built using Spring Boot, a powerful Java framework f
 
 
 
-Database (PostgreSQL + Data Management)
+### Database (PostgreSQL + Data Management)
 
 
 
@@ -84,7 +102,7 @@ The database layer of MeterFlow uses PostgreSQL, a highly reliable and powerful 
 
 
 
-6\. Technologies Used 
+## 6. Technologies Used 
 
 MeterFlow is built using a combination of modern technologies that together create a scalable, efficient, and user-friendly system. At the core of the backend, Spring Boot is used to develop RESTful APIs, providing a robust framework with features like dependency injection, auto-configuration, and built-in server support, which significantly reduces development time. For database interaction, Hibernate (JPA) is utilized as an Object Relational Mapping tool, allowing seamless mapping between Java objects and database tables while minimizing the need for complex SQL queries. The frontend is developed using React.js, which enables the creation of dynamic and interactive user interfaces through reusable components and efficient state management.
 
@@ -94,161 +112,76 @@ Version control and collaboration are managed using GitHub, which allows develop
 
 
 
-8.Flowchart
-
-&#x20;      
-
-&#x20;       ┌───────────────┐
-
-&#x20;       │     Start     │
-
-&#x20;       └──────┬────────┘
-
-&#x20;              │
-
-&#x20;              ▼
-
-&#x20;    ┌───────────────────┐
-
-&#x20;    │ User Login/Register│
-
-&#x20;    └──────┬────────────┘
-
-&#x20;           │
-
-&#x20;           ▼
-
-&#x20;    ┌───────────────────┐
-
-&#x20;    │ Generate API Key  │
-
-&#x20;    └──────┬────────────┘
-
-&#x20;           │
-
-&#x20;           ▼
-
-&#x20;    ┌───────────────────┐
-
-&#x20;    │  Make API Request │
-
-&#x20;    └──────┬────────────┘
-
-&#x20;           │
-
-&#x20;           ▼
-
-&#x20;    ┌────────────────────────┐
-
-&#x20;    │ Validate API Key \& Limit│
-
-&#x20;    └──────┬─────────────────┘
-
-&#x20;           │
-
-&#x20;    ┌──────┴─────────┐
-
-&#x20;    │                │
-
-&#x20;    ▼                ▼
-
-┌─────────────┐   ┌───────────────┐
-
-│ Valid       │   │ Invalid        │
-
-└────┬────────┘   └────┬──────────┘
-
-&#x20;    │                 │
-
-&#x20;    ▼                 ▼
-
-┌──────────────┐   ┌───────────────┐
-
-│ Process API  │   │ Reject Request │
-
-│ Request      │   │ (401/Limit)    │
-
-└────┬─────────┘   └───────────────┘
-
-&#x20;    │
-
-&#x20;    ▼
-
-┌──────────────────────────┐
-
-│ Log Usage in Database    │
-
-│ (endpoint, status, time) │
-
-└────┬─────────────────────┘
-
-&#x20;    │
-
-&#x20;    ▼
-
-┌──────────────────────────┐
-
-│ Aggregate Usage Data     │
-
-│ (group by API, count)    │
-
-└────┬─────────────────────┘
-
-&#x20;    │
-
-&#x20;    ▼
-
-┌──────────────────────────┐
-
-│ Send Data via REST API   │
-
-│ (/usage/summary)         │
-
-└────┬─────────────────────┘
-
-&#x20;    │
-
-&#x20;    ▼
-
-┌──────────────────────────┐
-
-│ Frontend Dashboard       │
-
-│ (Charts + Table)         │
-
-└────┬─────────────────────┘
-
-&#x20;    │
-
-&#x20;    ▼
-
-┌──────────────────────────┐
-
-│ User/Admin Analysis      │
-
-│ (Monitoring \& Billing)   │
-
-└────┬─────────────────────┘
-
-&#x20;    │
-
-&#x20;    ▼
-
-&#x20;       ┌───────────────┐
-
-&#x20;       │      End      │
-
-&#x20;       └───────────────┘
-
-
-
-
-
-
-
-
-
-
+## 8.Flowchart
+
+<div align="center">
+
+<pre>
+        ┌───────────────┐
+        │   User Login  │
+        └──────┬────────┘
+               │
+               ▼
+     ┌────────────────────┐
+     │ Generate API Key   │
+     └──────┬─────────────┘
+            │
+            ▼
+   ┌──────────────────────┐
+   │ User Makes API Call  │
+   └──────┬───────────────┘
+          │
+          ▼
+ ┌────────────────────────────┐
+ │ Request Interceptor Layer  │
+ │ (Capture API Key, Endpoint)│
+ └──────┬─────────────────────┘
+        │
+        ▼
+ ┌────────────────────────────┐
+ │ Validate API Key & Limits  │
+ └──────┬─────────────────────┘
+        │
+   ┌────┴───────┐
+   │ Valid      │ Invalid
+   ▼            ▼
+┌──────────┐   ┌──────────────┐
+│ Process  │   │ Reject Request│
+│ Request  │   │ (Error 401)   │
+└────┬─────┘   └──────────────┘
+     │
+     ▼
+┌────────────────────────────┐
+│ Log Usage (DB - PostgreSQL)│
+│ endpoint, status, time     │
+└────┬───────────────────────┘
+     │
+     ▼
+┌────────────────────────────┐
+│ Aggregate Data (Backend)   │
+│ count, grouping, summary   │
+└────┬───────────────────────┘
+     │
+     ▼
+┌────────────────────────────┐
+│ Send Data via REST API     │
+│ (/usage/summary)           │
+└────┬───────────────────────┘
+     │
+     ▼
+┌────────────────────────────┐
+│ Frontend Dashboard (React) │
+│ Charts + Table View        │
+└────┬───────────────────────┘
+     │
+     ▼
+┌────────────────────────────┐
+│ User/Admin Analysis        │
+│ Monitoring & Billing       │
+└────────────────────────────┘
+</pre>
+
+</div>
 
 
 
@@ -266,27 +199,29 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-8\. Screenshots and explanation of all functionality
+## 8. Screenshots and explanation of all functionality
 
 
 
-Register 
+## Register 
 
 
 
-🧑‍💼 AdminRegister (Admin Registration Page)
+## 🧑‍💼 AdminRegister (Admin Registration Page)
 
 
 
-<img src="./screenshots/RegisterPage.png" width="800"/>
-
-<img src="./screenshots/RegisterAsAdmin.png" width="800"/>
-
-<img src="./screenshots/AdminLogin.png" width="800"/>
+<img src="./Screenshots/RegisterPage.png" width="800"/>
 
 
+<img src="./Screenshots/RegisterAsAdmin.png" width="800"/>
 
-<img src="./screenshots/AdminDashboard.png" width="800"/>
+
+<img src="./Screenshots/AdminLogin.png" width="800"/>
+
+
+
+<img src="./Screenshots/AdminDashboard.png" width="800"/>
 
 
 
@@ -302,19 +237,19 @@ Register
 
 •	Once completed, the admin can log in and access the dashboard for monitoring and operations.
 
-👤 UserRegister (User Registration Page)
+## 👤 UserRegister (User Registration Page)
 
 
 
-&#x20;    <img src="./screenshots/LoginPage.png" width="800"/>
+       <img src="./Screenshots/LoginPage.png" width="800"/>
 
-&#x20;     <img src="./screenshots/RegisterAsUser.png" width="800"/>
+       <img src="./Screenshots/RegisterAsUser.png" width="800"/>
 
-&#x20;        <img src="./screenshots/UserLogin.png" width="800"/>
+        <img src="./Screenshots/UserLogin.png" width="800"/>
 
-&#x20;     <img src="./screenshots/UserRegisterSuccess.png" width="800"/>
+       <img src="./Screenshots/UserRegisterSuccess.png" width="800"/>
 
-&#x20;        <img src="./screenshots/Dashboard.png" width="800"/>
+        <img src="./Screenshots/Dashboard.png" width="800"/>
 
 
 
@@ -332,7 +267,7 @@ Register
 
 
 
-Logout Option
+## Logout Option
 
 <img src="./screenshots/LogoutPage.png" width="800"/>
 
@@ -348,9 +283,9 @@ Logout Option
 
 
 
-🏠 UserDashboard (User Main Dashboard)
+## 🏠 UserDashboard (User Main Dashboard)
 
-&#x20;       <img src="./screenshots/Dashboard.png" width="800"/>
+       <img src="./Screenshots/Dashboard.png" width="800"/>
 
 
 
@@ -366,11 +301,11 @@ Logout Option
 
 •	It acts as a central hub to manage all user actions and monitor performance.
 
-🔍 Search API Bar
+
+## 🔍 Search API Bar
 
 
-
-<img src="./screenshots/SearchOption.png" width="800"/>
+<img src="./Screenshots/SearchOption.png" width="800"/>
 
 •	Allows users to search for specific APIs quickly. 
 
@@ -380,9 +315,9 @@ Logout Option
 
 
 
-📈 Usage Trend
+### 📈 Usage Trend
 
-<img src="./screenshots/UsageTrends.png" width="800"/>
+<img src="./Screenshots/UsageTrends.png" width="800"/>
 
 •	Displays API usage over time in graph format. 
 
@@ -394,9 +329,9 @@ Logout Option
 
 •	Provides visual insights. 
 
-📊 API Requests
+### 📊 API Requests
 
-<img src="./screenshots/UsageApiRequest.png" width="800"/>
+<img src="./Screenshots/UsageApiRequest.png" width="800"/>
 
 •	Shows detailed count of API calls. 
 
@@ -408,9 +343,9 @@ Logout Option
 
 •	Supports performance analysis. 
 
-🧩 Distribution
+### 🧩 Distribution
 
-<img src="./screenshots/UsageDistribution.png" width="800"/>
+<img src="./Screenshots/UsageDistribution.png" width="800"/>
 
 •	Represents usage distribution across APIs. 
 
@@ -422,9 +357,9 @@ Logout Option
 
 •	Improves decision-making. 
 
-📄 Details
+### 📄 Details
 
-<img src="./screenshots/UsageDetails.png" width="800"/>
+<img src="./Screenshots/UsageDetails.png" width="800"/>
 
 •	Provides detailed logs of API usage. 
 
@@ -436,9 +371,9 @@ Logout Option
 
 •	Ensures transparency.
 
-🔑 API Keys
+## 🔑 API Keys
 
-&#x20;    <img src="./screenshots/ApiKeysDashboard.png" width="800"/>
+    <img src="./Screenshots/ApiKeysDashboard.png" width="800"/>
 
 
 
@@ -453,14 +388,12 @@ Logout Option
 •	Core feature for API usage.
 
 
+### Generate API Key
 
-&#x20;     Generate API Key
+	     <img src="./Screenshots/GenerateApiKey.png" width="800"/>
 
-&#x20;     <img src="./screenshots/GenerateApiKey.png" width="800"/>
-
-&#x20;    <img src="./screenshots/GenerateApiKeySuccess.png" width="800"/>
-
-&#x20;  
+	    <img src="./Screenshots/GenerateApiKeySuccess.png" width="800"/>
+  
 
 •	This feature allows users to generate a unique API key for accessing the platform’s APIs. 
 
@@ -474,23 +407,20 @@ Logout Option
 
 •	It is essential for secure communication and controlled API usage.
 
-📋 Copy API Key \& Run in Postman
+### 📋 Copy API Key & Run in Postman
 
-&#x20; <img src="./screenshots/KeyCopy.png" width="800"/>
-
-
-
-<img src="./screenshots/CopyAPIInPostman.png" width="800"/>
+ <img src="./Screenshots/KeyCopy.png" width="800"/>
 
 
 
+<img src="./Screenshots/CopyAPIInPostman.png" width="800"/>
 
 
-<img src="./screenshots/PostmanResponseOne.png" width="800"/>
+<img src="./Screenshots/PostmanResponseOne.png" width="800"/>
 
-<img src="./screenshots/PostmanResponseTwo.png" width="800"/>
+<img src="./Screenshots/PostmanResponseTwo.png" width="800"/>
 
-<img src="./screenshots/PostmanResponseThree.png" width="800"/>
+<img src="./Screenshots/PostmanResponseThree.png" width="800"/>
 
 
 
@@ -504,9 +434,9 @@ Logout Option
 
 
 
-🔑 API Key Usage – Before Usage
+###🔑 API Key Usage – Before Usage
 
-<img src="./screenshots/APIBeforeUsage.png" width="800"/>
+<img src="./Screenshots/APIBeforeUsage.png" width="800"/>
 
 •	Before using the API key, the request count is zero and no activity is recorded. 
 
@@ -521,12 +451,9 @@ Logout Option
 •	This represents the initial state after key generation. 
 
 
+### 🔄 API Key Usage – After Usage
 
-
-
-🔄 API Key Usage – After Usage
-
-<img src="./screenshots/APIAfterUsage.png" width="800"/>
+<img src="./Screenshots/APIAfterUsage.png" width="800"/>
 
 
 
@@ -544,15 +471,15 @@ Logout Option
 
 
 
-API Key Revoke
+### API Key Revoke
 
 
 
-<img src="./screenshots/BeforeRevoke.png" width="800"/>
+<img src="./Screenshots/BeforeRevoke.png" width="800"/>
 
-<img src="./screenshots/RevokeAlert.png" width="800"/>
+<img src="./Screenshots/RevokeAlert.png" width="800"/>
 
-<img src="./screenshots/AfterRevoke.png" width="800"/>
+<img src="./Screenshots/AfterRevoke.png" width="800"/>
 
 •	This feature allows users to deactivate or revoke an existing API key. 
 
@@ -572,11 +499,11 @@ API Key Revoke
 
 
 
-💰 Billing
+## 💰 Billing
 
 
 
-<img src="./screenshots/BillingDashboard.png" width="800"/>
+<img src="./Screenshots/BillingDashboard.png" width="800"/>
 
 •	This screen shows the billing details related to API usage. 
 
@@ -590,9 +517,9 @@ API Key Revoke
 
 
 
-<img src="./screenshots/BeforeBilling.png" width="800"/>
+<img src="./Screenshots/BeforeBilling.png" width="800"/>
 
-<img src="./screenshots/UseOption.png" width="800"/>
+<img src="./Screenshots/UseOption.png" width="800"/>
 
 
 
@@ -608,11 +535,11 @@ API Key Revoke
 
 
 
-Before Billing
+### Before Billing
 
 
 
-<img src="./screenshots/BillingBeforeUsage.png" width="800"/>
+<img src="./Screenshots/BillingBeforeUsage.png" width="800"/>
 
 
 
@@ -632,11 +559,11 @@ Before Billing
 
 
 
-After Billing
+### After Billing
 
 
 
-<img src="./screenshots/BillingAfterUsage.png" width="800"/>
+<img src="./Screenshots/BillingAfterUsage.png" width="800"/>
 
 
 
@@ -654,11 +581,11 @@ After Billing
 
 
 
-💎 Plans
+## 💎 Plans
 
 
 
-<img src="./screenshots/PlanPage.png" width="800"/>
+<img src="./Screenshots/PlanPage.png" width="800"/>
 
 •	Shows available subscription plans. 
 
@@ -672,11 +599,11 @@ After Billing
 
 
 
-Free Plan (Basic Subscription)
+### Free Plan (Basic Subscription)
 
 
 
-<img src="./screenshots/FreePlan.png" width="800"/>
+<img src="./Screenshots/FreePlan.png" width="800"/>
 
 
 
@@ -690,11 +617,11 @@ Free Plan (Basic Subscription)
 
 
 
-Pro Plan (Advanced Subscription)
+### Pro Plan (Advanced Subscription)
 
 
 
-<img src="./screenshots/UpgradePlan.png" width="800"/>
+<img src="./Screenshots/UpgradePlan.png" width="800"/>
 
 
 
@@ -710,13 +637,13 @@ Pro Plan (Advanced Subscription)
 
 
 
-Razorpay (Payment Gateway)
+### Razorpay (Payment Gateway)
 
 
 
-<img src="./screenshots/RazorpayPaymentOption.png" width="800"/>
+<img src="./Screenshots/RazorpayPaymentOption.png" width="800"/>
 
-<img src="./screenshots/RazorpayDetails.png" width="800"/>
+<img src="./Screenshots/RazorpayDetails.png" width="800"/>
 
 
 
@@ -734,11 +661,11 @@ Razorpay (Payment Gateway)
 
 
 
-🧑‍💼 AdminDashboard (Admin Control Panel)
+## 🧑‍💼 AdminDashboard (Admin Control Panel)
 
 
 
-&#x20;   <img src="./screenshots/AdminDashboard.png" width="800"/>
+     <img src="./Screenshots/AdminDashboard.png" width="800"/>
 
 
 
@@ -756,11 +683,11 @@ Razorpay (Payment Gateway)
 
 •	This dashboard acts as the main control hub for overseeing all platform activities.
 
-👥 Users 
+### 👥 Users 
 
 
 
-<img src="./screenshots/AdminUsers.png" width="800"/>
+<img src="./Screenshots/AdminUsers.png" width="800"/>
 
 
 
@@ -778,11 +705,12 @@ Razorpay (Payment Gateway)
 
 •	Provides a clear overview of the entire user base in one place.
 
-💰 Revenue 
+
+### 💰 Revenue 
 
 
 
-<img src="./screenshots/AdminRevenue.png" width="800"/>
+<img src="./Screenshots/AdminRevenue.png" width="800"/>
 
 
 
@@ -802,9 +730,9 @@ Razorpay (Payment Gateway)
 
 
 
-📊 Traffic Overview 
+### 📊 Traffic Overview 
 
-<img src="./screenshots/AdminTraffic.png" width="800"/>
+<img src="./Screenshots/AdminTraffic.png" width="800"/>
 
 •	This page shows the total API traffic in the system. 
 
@@ -816,15 +744,10 @@ Razorpay (Payment Gateway)
 
 •	Useful for monitoring system performance and load. 
 
-•	Assists admins in optimizing and scaling the system. 
-
-•	Provides clear insights into overall API usage activity.
 
 
 
-
-
-9\. Conclusion
+## 9. Conclusion
 
 MeterFlow successfully demonstrates a complete and practical solution for API usage tracking, monitoring, and billing in modern applications. It highlights how APIs, which are a core part of today’s software systems, can be efficiently managed and monetized using a structured approach. By capturing every API request along with key details such as endpoint, status, and timestamp, the system provides accurate insights into usage patterns. The integration of a dynamic dashboard with visual representations like charts and tables makes it easy for users and administrators to understand complex data quickly. The project also emphasizes important concepts such as rate limiting, API key-based authentication, and real-time monitoring, which are essential in real-world systems.From a technical perspective, MeterFlow showcases the effective use of a full-stack architecture, combining Spring Boot for backend processing, React for frontend visualization, and PostgreSQL for reliable data storage. It demonstrates how different technologies can work together seamlessly to build a scalable and efficient application. The project also reflects real-world SaaS product design, where billing is based on actual usage, making it highly relevant to industry practices.In addition, MeterFlow provides a strong foundation for future enhancements such as automated billing integration, AI-based analytics, and cloud deployment. It not only solves practical problems in API management but also improves transparency, performance monitoring, and cost optimization. Overall, the project is a comprehensive representation of modern API-driven systems and serves as a valuable learning experience as well as a potential real-world product.
 
