@@ -191,23 +191,16 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-       <img src="./Screenshots/LoginPage.png" width="800"/>
+<img src="./Screenshots/LoginPage.png" width="800"/>
 
+<img src="./Screenshots/RegisterAsUser.png" width="800"/>
 
+<img src="./Screenshots/UserLogin.png" width="800"/>
 
-       <img src="./Screenshots/RegisterAsUser.png" width="800"/>
+<img src="./Screenshots/UserRegisterSuccess.png" width="800"/>
 
+<img src="./Screenshots/Dashboard.png" width="800"/>
 
-
-        <img src="./Screenshots/UserLogin.png" width="800"/>
-
-
-
-       <img src="./Screenshots/UserRegisterSuccess.png" width="800"/>
-
-
-
-        <img src="./Screenshots/Dashboard.png" width="800"/>
 
 
 
