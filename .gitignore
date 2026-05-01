@@ -1,0 +1,16 @@
+# IntelliJ
+.idea/
+
+# Java build
+target/
+
+# Node
+node_modules/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

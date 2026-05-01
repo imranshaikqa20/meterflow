@@ -1,0 +1,7 @@
+
+body {margin:0;font-family:Inter, sans-serif;background:#0f172a;color:white;}
+.sidebar {width:240px;background:#020617;height:100vh;padding:20px;position:fixed;}
+.main {margin-left:260px;padding:20px;}
+.card {background:#020617;padding:20px;border-radius:12px;margin-bottom:20px;}
+button {background:#3b82f6;color:white;border:none;padding:10px 15px;border-radius:8px;}
+input {padding:10px;margin:5px 0;border-radius:6px;border:none;width:100%;}
