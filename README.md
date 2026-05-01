@@ -134,7 +134,7 @@ Version control and collaboration are managed using GitHub, which allows develop
 flowchart TD
     A[User Login] --> B[Generate API Key]
     B --> C[User Makes API Call]
-    C --> D[Request Interceptor Layer<br/>(Capture API Key, Endpoint)]
+    C --> D[Request Interceptor Layer - Capture API Key, Endpoint]
     D --> E[Validate API Key & Limits]
 
     E -->|Valid| F[Process Request]
@@ -142,12 +142,11 @@ flowchart TD
 
     F --> H[Log Usage (PostgreSQL)]
     H --> I[Aggregate Data]
-    I --> J[Send Data via REST API<br/>(/usage/summary)]
-    J --> K[Frontend Dashboard (React)]
-    K --> L[User/Admin Analysis<br/>Monitoring & Billing]
+    I --> J[Send Data via REST API (/usage/summary)]
+```
 
 
-Explanation 
+### Explanation 
 
 The system begins when a user logs into the platform, after which a unique API key is generated for authentication. This API key is used whenever the user makes API requests. Each time an API call is made, it passes through a request interceptor layer, which captures important details such as the API key, endpoint, and request metadata.
 
