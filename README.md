@@ -202,23 +202,23 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-       <img src="./Screenshots/LoginPage.png" width="800"/>
+       <img src="./screenshots/LoginPage.png" width="800"/>
 
 
 
-       <img src="./Screenshots/RegisterAsUser.png" width="800"/>
+       <img src="./screenshots/RegisterAsUser.png" width="800"/>
 
 
 
-        <img src="./Screenshots/UserLogin.png" width="800"/>
+        <img src="./screenshots/UserLogin.png" width="800"/>
 
 
 
-       <img src="./Screenshots/UserRegisterSuccess.png" width="800"/>
+       <img src="./screenshots/UserRegisterSuccess.png" width="800"/>
 
 
 
-        <img src="./Screenshots/Dashboard.png" width="800"/>
+        <img src="./screenshots/Dashboard.png" width="800"/>
 
 
 
