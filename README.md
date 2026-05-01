@@ -216,7 +216,9 @@ The MeterFlow system flow begins when a user logs into the platform using valid 
 ## Logout Option
 
 
-<img src="./Screenshots/LogoutPage.png" width="800"/>
+<p align="center">
+  <img src="./Screenshots/LogoutPage.png" width="700"/>
+</p>
 
 •	The logout option allows the user to securely end their current session. 
 
@@ -376,7 +378,7 @@ The MeterFlow system flow begins when a user logs into the platform using valid 
 
 
 
-### open the Postman and paste the key and Run Multiple times with multiple API's
+### Open the Postman and paste the key and Run Multiple times with multiple API's
 
 
 
