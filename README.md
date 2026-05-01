@@ -186,9 +186,13 @@ The MeterFlow system flow begins when a user logs into the platform using valid 
 
 <img src="./Screenshots/RegisterAsUser.png" width="800"/>
 
-<img src="./Screenshots/UserLogin.png" width="800"/>
 
 <img src="./Screenshots/UserRegisterSuccess.png" width="800"/>
+
+
+
+<img src="./Screenshots/UserLogin.png" width="800"/>
+
 
 <img src="./Screenshots/Dashboard.png" width="800"/>
 
