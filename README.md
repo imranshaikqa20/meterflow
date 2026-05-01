@@ -1,4 +1,4 @@
-<h1 align="center"> MeterFlow – Usage-Based API Billing Platform/h1>
+<h1 align="center"> MeterFlow – Usage-Based API Billing Platform</h1>
 
 
 
@@ -50,23 +50,39 @@ MeterFlow is highly valuable in healthcare systems where APIs are used to manage
 
 
 
-MeterFlow holds significant value in today’s rapidly growing API-driven industry, where businesses increasingly rely on APIs as core products and revenue streams. As companies move toward SaaS and microservices architectures, tracking and managing API usage becomes critical for both performance optimization and accurate billing. MeterFlow enables organizations to implement usage-based pricing models, which are widely adopted by leading platforms such as cloud providers and fintech services. By providing detailed insights into API consumption, it helps businesses identify high-demand services, optimize infrastructure, and reduce unnecessary costs. It also enhances transparency between service providers and clients by offering clear usage reports, which improves trust and customer satisfaction.
+### 🔹 1. Industry Importance of API Usage Tracking
 
-From an industry perspective, MeterFlow supports digital transformation by enabling scalable API management solutions. It can be used across multiple domains including fintech, healthcare, e-commerce, AI platforms, and IoT systems where APIs play a central role. The platform also helps detect unusual traffic patterns, which is useful for security monitoring and fraud prevention.
+MeterFlow holds significant importance in today’s API-driven ecosystem, where APIs are no longer just technical tools but core business assets. Modern applications rely heavily on APIs for communication between services, especially in microservices and SaaS architectures. As businesses scale, the number of API calls increases rapidly, making it essential to track usage accurately. MeterFlow helps organizations monitor every API interaction, ensuring better control over system performance and resource consumption. It enables companies to understand how their APIs are being used, which services are in high demand, and where optimization is required. This level of visibility is critical for maintaining system reliability and delivering consistent user experiences. Additionally, it helps organizations align their technical operations with business goals by linking API usage directly to revenue generation. Overall, MeterFlow plays a foundational role in managing modern digital infrastructures efficiently.
 
-Looking at future scope, MeterFlow can be extended with advanced features such as AI-based predictive analytics to forecast API usage trends and detect anomalies proactively. Integration with payment gateways can automate billing and invoicing processes, making it a complete monetization platform. Support for subscription-based and tiered pricing models can further enhance its usability. The system can also evolve into a multi-tenant SaaS platform, allowing multiple organizations to use it independently. Cloud deployment and containerization (using Docker/Kubernetes) can improve scalability and availability. Additionally, real-time alert systems, role-based access control, and enhanced dashboards can make the platform more powerful and enterprise-ready. Overall, MeterFlow has strong potential to grow into a full-scale API management and billing solution aligned with modern industry needs.
+### 🔹 2. Support for Usage-Based Pricing Models
+
+One of the key industry benefits of MeterFlow is its ability to support usage-based pricing models, which are widely adopted by platforms like Amazon Web Services and Stripe. Instead of charging fixed subscription fees, businesses can bill customers based on actual API usage, making pricing more flexible and fair. MeterFlow tracks every request in real time and calculates costs accordingly, ensuring accurate billing without manual intervention. This approach not only improves customer satisfaction but also increases revenue opportunities for service providers. It allows businesses to offer scalable pricing plans that adapt to user needs. Additionally, it helps prevent revenue loss caused by untracked or excessive API consumption. By enabling transparent and precise billing, MeterFlow strengthens trust between providers and clients. Overall, it supports modern monetization strategies that are essential for API-based businesses.
+
+### 🔹 3. Performance Optimization & Cost Efficiency
+
+MeterFlow provides detailed insights into API consumption, which helps organizations optimize their systems and reduce operational costs. By analyzing usage data, businesses can identify which APIs are heavily used and which are underutilized. This information allows them to allocate resources more efficiently and improve system performance. It also helps detect bottlenecks or slow-performing endpoints that may affect user experience. Additionally, MeterFlow enables proactive scaling of infrastructure based on demand, ensuring that systems can handle peak loads without failures. By eliminating unnecessary API calls and optimizing workflows, organizations can significantly reduce cloud and infrastructure costs. It also supports capacity planning by providing historical usage trends. Overall, MeterFlow helps businesses achieve a balance between performance, scalability, and cost efficiency.
+
+### 🔹 4. Transparency & Customer Trust
+
+Transparency is a critical factor in building strong relationships between service providers and customers, and MeterFlow plays a key role in achieving this. By providing detailed usage reports, it allows customers to clearly understand how their API usage translates into costs. This eliminates confusion and disputes related to billing. Customers can monitor their own usage patterns and make informed decisions about their consumption. Additionally, MeterFlow ensures that billing is accurate and consistent, which enhances credibility. It also enables businesses to provide real-time dashboards where users can track their API activity. This level of openness builds trust and improves customer satisfaction. Furthermore, it helps organizations maintain compliance with industry standards by keeping detailed logs of API interactions. Overall, MeterFlow promotes transparency and accountability in API-driven systems.
+
+### 🔹 5. Role in Digital Transformation Across Industries
+
+MeterFlow supports digital transformation by enabling scalable API management solutions across various industries. It can be applied in fintech, healthcare, e-commerce, AI platforms, and IoT systems, where APIs are central to operations. In these domains, MeterFlow helps monitor data flow, ensure system reliability, and optimize performance. It also provides insights that help organizations make data-driven decisions and improve service delivery. By supporting modern architectures such as microservices and cloud-native systems, MeterFlow aligns with current industry trends. Additionally, it helps organizations adapt to changing business requirements by providing flexible monitoring and billing capabilities. Its ability to integrate with existing systems makes it a valuable tool for digital innovation. Overall, MeterFlow accelerates the adoption of advanced technologies and improves operational efficiency across industries.
 
 
 
-## 4. Roles – User \& Admin
+## 4. Roles – User & Admin
 
 
 
-In the MeterFlow system, roles are clearly defined to ensure efficient usage monitoring and system management, primarily divided into User and Admin roles. The User represents developers, clients, or organizations who consume APIs. Each user is provided with a unique API key that acts as an authentication mechanism for accessing services. Users can log in to the platform and view their personalized dashboard, where they can track API usage in real time. They can see metrics such as total requests, usage trends, and remaining request limits if rate limiting is applied. Users are also able to analyze which APIs they use the most, helping them optimize their applications and control costs. In some cases, users may receive alerts when they approach their usage limits or exceed quotas.
+### 🔹 User
 
-The Admin role, on the other hand, has complete control over the system. Admins can monitor all API activity across all users, giving them a comprehensive view of system performance and traffic. They are responsible for managing users, generating and revoking API keys, and enforcing security policies. Admins can analyze system-wide usage patterns to identify high-demand APIs and potential bottlenecks. They also play a key role in billing and reporting, as they can generate detailed usage reports for each user and ensure accurate billing calculations. Additionally, admins can detect unusual or suspicious activity, such as sudden spikes in API calls, which may indicate misuse or security threats. They can enforce rate limits, block abusive users, and maintain system stability. Overall, the User and Admin roles work together to ensure that the platform operates smoothly, securely, and efficiently while providing transparency and control over API usage.
+In the MeterFlow system, the User represents developers, clients, or organizations that consume APIs for their applications. Each user is provided with a unique API key, which acts as a secure authentication mechanism for accessing services. After logging into the platform, users can access a personalized dashboard that displays real-time API usage data, including total requests, success and failure rates, and usage trends over time. This helps users understand how their applications interact with APIs and identify high-usage endpoints. MeterFlow also allows users to monitor their remaining request limits when rate limiting is applied, ensuring they do not exceed allowed quotas. Additionally, users can receive alerts when they approach their limits, helping them avoid service interruptions. By analyzing usage reports and logs, users can optimize their API calls, reduce unnecessary requests, and improve application performance. Overall, the User role focuses on visibility, control, and efficient utilization of API resources while ensuring cost optimization and better system performance.
 
+### 🔹 Admin
 
+The Admin in MeterFlow has complete control over the system and is responsible for managing users, monitoring API activity, and maintaining overall system performance. Admins can view API usage across all users, giving them a centralized understanding of traffic patterns and system behavior. They have the authority to generate, manage, and revoke API keys, ensuring secure access to the platform. Admins are also responsible for enforcing rate limits and security policies to prevent misuse and maintain system stability. By analyzing aggregated data, they can identify high-demand APIs, detect bottlenecks, and optimize resource allocation. Additionally, admins handle billing and reporting by generating detailed usage reports for each user, ensuring accurate and transparent cost calculations. They can also detect unusual or suspicious activity, such as sudden spikes in API requests, and take necessary actions like blocking users or restricting access. Overall, the Admin role ensures that the platform operates securely, efficiently, and reliably while providing full control over monitoring, billing, and system management.
 
 ## 5. Tech Stack
 
@@ -114,75 +130,21 @@ Version control and collaboration are managed using GitHub, which allows develop
 
 ## 8.Flowchart
 
-<div align="center">
+```mermaid
+flowchart TD
+    A[User Login] --> B[Generate API Key]
+    B --> C[User Makes API Call]
+    C --> D[Request Interceptor Layer<br/>(Capture API Key, Endpoint)]
+    D --> E[Validate API Key & Limits]
 
-<pre>
-        ┌───────────────┐
-        │   User Login  │
-        └──────┬────────┘
-               │
-               ▼
-     ┌────────────────────┐
-     │ Generate API Key   │
-     └──────┬─────────────┘
-            │
-            ▼
-   ┌──────────────────────┐
-   │ User Makes API Call  │
-   └──────┬───────────────┘
-          │
-          ▼
- ┌────────────────────────────┐
- │ Request Interceptor Layer  │
- │ (Capture API Key, Endpoint)│
- └──────┬─────────────────────┘
-        │
-        ▼
- ┌────────────────────────────┐
- │ Validate API Key & Limits  │
- └──────┬─────────────────────┘
-        │
-   ┌────┴───────┐
-   │ Valid      │ Invalid
-   ▼            ▼
-┌──────────┐   ┌──────────────┐
-│ Process  │   │ Reject Request│
-│ Request  │   │ (Error 401)   │
-└────┬─────┘   └──────────────┘
-     │
-     ▼
-┌────────────────────────────┐
-│ Log Usage (DB - PostgreSQL)│
-│ endpoint, status, time     │
-└────┬───────────────────────┘
-     │
-     ▼
-┌────────────────────────────┐
-│ Aggregate Data (Backend)   │
-│ count, grouping, summary   │
-└────┬───────────────────────┘
-     │
-     ▼
-┌────────────────────────────┐
-│ Send Data via REST API     │
-│ (/usage/summary)           │
-└────┬───────────────────────┘
-     │
-     ▼
-┌────────────────────────────┐
-│ Frontend Dashboard (React) │
-│ Charts + Table View        │
-└────┬───────────────────────┘
-     │
-     ▼
-┌────────────────────────────┐
-│ User/Admin Analysis        │
-│ Monitoring & Billing       │
-└────────────────────────────┘
-</pre>
+    E -->|Valid| F[Process Request]
+    E -->|Invalid| G[Reject Request (401)]
 
-</div>
-
+    F --> H[Log Usage (PostgreSQL)]
+    H --> I[Aggregate Data]
+    I --> J[Send Data via REST API<br/>(/usage/summary)]
+    J --> K[Frontend Dashboard (React)]
+    K --> L[User/Admin Analysis<br/>Monitoring & Billing]
 
 
 Explanation 
@@ -207,7 +169,7 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-## 🧑‍💼 AdminRegister (Admin Registration Page)
+### 🧑‍💼 AdminRegister (Admin Registration Page)
 
 
 
@@ -237,17 +199,26 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 •	Once completed, the admin can log in and access the dashboard for monitoring and operations.
 
+
 ## 👤 UserRegister (User Registration Page)
 
 
 
        <img src="./Screenshots/LoginPage.png" width="800"/>
 
+
+
        <img src="./Screenshots/RegisterAsUser.png" width="800"/>
+
+
 
         <img src="./Screenshots/UserLogin.png" width="800"/>
 
+
+
        <img src="./Screenshots/UserRegisterSuccess.png" width="800"/>
+
+
 
         <img src="./Screenshots/Dashboard.png" width="800"/>
 
@@ -269,7 +240,8 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ## Logout Option
 
-<img src="./screenshots/LogoutPage.png" width="800"/>
+
+<img src="./Screenshots/LogoutPage.png" width="800"/>
 
 •	The logout option allows the user to securely end their current session. 
 
@@ -286,6 +258,7 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 ## 🏠 UserDashboard (User Main Dashboard)
 
        <img src="./Screenshots/Dashboard.png" width="800"/>
+
 
 
 
@@ -331,7 +304,9 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ### 📊 API Requests
 
+
 <img src="./Screenshots/UsageApiRequest.png" width="800"/>
+
 
 •	Shows detailed count of API calls. 
 
@@ -345,7 +320,10 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ### 🧩 Distribution
 
+
 <img src="./Screenshots/UsageDistribution.png" width="800"/>
+
+
 
 •	Represents usage distribution across APIs. 
 
@@ -359,7 +337,9 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ### 📄 Details
 
+
 <img src="./Screenshots/UsageDetails.png" width="800"/>
+
 
 •	Provides detailed logs of API usage. 
 
@@ -371,7 +351,10 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 •	Ensures transparency.
 
+
 ## 🔑 API Keys
+
+
 
     <img src="./Screenshots/ApiKeysDashboard.png" width="800"/>
 
@@ -390,9 +373,11 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ### Generate API Key
 
+
 	     <img src="./Screenshots/GenerateApiKey.png" width="800"/>
 
-	    <img src="./Screenshots/GenerateApiKeySuccess.png" width="800"/>
+
+	    <img src="./Screenshots/GenerateAPIKeySUccess.png" width="800"/>
   
 
 •	This feature allows users to generate a unique API key for accessing the platform’s APIs. 
@@ -407,6 +392,7 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 •	It is essential for secure communication and controlled API usage.
 
+
 ### 📋 Copy API Key & Run in Postman
 
  <img src="./Screenshots/KeyCopy.png" width="800"/>
@@ -420,7 +406,7 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 <img src="./Screenshots/PostmanResponseTwo.png" width="800"/>
 
-<img src="./Screenshots/PostmanResponseThree.png" width="800"/>
+<img src="./Screenshots/PostmanRessponseThree.png" width="800"/>
 
 
 
@@ -434,7 +420,7 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-###🔑 API Key Usage – Before Usage
+### 🔑 API Key Usage – Before Usage
 
 <img src="./Screenshots/APIBeforeUsage.png" width="800"/>
 
@@ -641,7 +627,9 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-<img src="./Screenshots/RazorpayPaymentOption.png" width="800"/>
+<img src="./Screenshots/RazorpaymentOption.png" width="800"/>
+
+
 
 <img src="./Screenshots/RazorpayDetails.png" width="800"/>
 
@@ -662,6 +650,7 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 ## 🧑‍💼 AdminDashboard (Admin Control Panel)
+
 
 
 
