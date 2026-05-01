@@ -23,8 +23,9 @@ public class PaymentController {
         this.userRepo = userRepo;
     }
 
-    private static final String KEY = "rzp_test";
-    private static final String SECRET = "xxxxxxxx";
+    private static final String KEY = "rzp_test_SiRngPGWjNndye";
+    private static final String SECRET = "IYn2ZCbtnbK5vjJ3Uy3VMZyt";
+
 
     //  Create Order
     @PostMapping("/create-order")
