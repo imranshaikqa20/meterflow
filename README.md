@@ -136,16 +136,7 @@ Version control and collaboration are managed using GitHub, which allows develop
 
 ### Explanation 
 
-The system begins when a user logs into the platform, after which a unique API key is generated for authentication. This API key is used whenever the user makes API requests. Each time an API call is made, it passes through a request interceptor layer, which captures important details such as the API key, endpoint, and request metadata.
-
-The system then validates the API key to ensure that the request is authorized and checks if the user has exceeded any rate limits. If the request is invalid, it is rejected with an appropriate error response (such as 401 Unauthorized). If valid, the request is processed normally, and the system continues execution.
-
-After processing, the system logs the API usage into the PostgreSQL database, storing details like endpoint, status code, and timestamp. This data is crucial for analytics and billing purposes. The backend then aggregates the stored data, grouping it by endpoints or API keys to calculate total usage counts and trends.
-
-The processed data is exposed through REST APIs (such as /usage/summary), which the frontend fetches using Axios. The React dashboard displays this data using charts (line, bar, pie) and tables, allowing users and admins to easily understand API usage patterns.
-
-Finally, both users and admins can analyze the data, monitor API performance, detect unusual activity, and perform billing calculations based on usage. This complete flow ensures efficient tracking, visualization, and monetization of API usage in real time.
-
+The MeterFlow system flow begins when a user logs into the platform using valid credentials, ensuring secure access to the system. After successful authentication, the user is provided with a unique API key that acts as an identification token for all API interactions. This API key is essential for making requests to the platform’s services. When the user makes an API call, the request is sent along with the API key and necessary parameters. Each incoming request is first handled by a request interceptor layer, which captures important metadata such as the API key, endpoint, headers, IP address, and timestamp. This interception step is crucial for monitoring, logging, and enforcing security policies. The system then proceeds to validate the API key to ensure it is active, authorized, and has not exceeded its usage limits. If the API key is found to be invalid or the request exceeds the allowed quota, the system immediately rejects the request and returns a 401 Unauthorized response. This prevents unauthorized access and misuse of the API. If the API key is valid, the request is forwarded to the backend for processing. The backend executes the required business logic and generates an appropriate response. After processing the request, the system logs detailed usage information into the PostgreSQL database, including request data, response status, and timestamps. This logging mechanism ensures accurate tracking of API consumption. The stored data is then aggregated to generate insights such as total API calls, usage patterns, and user-specific statistics. These aggregated insights help in understanding system performance and user behavior. The processed data is then exposed through REST APIs, such as usage summary endpoints, which can be consumed by the frontend. The frontend dashboard uses this data to display visual analytics like charts, graphs, and reports. These visualizations help users and administrators easily monitor API usage and performance. Additionally, the aggregated data plays a key role in billing calculations and reporting. The entire flow ensures that API usage is securely managed, efficiently processed, and accurately tracked. It also enables real-time monitoring and decision-making through detailed analytics. Overall, the MeterFlow system provides a scalable and reliable solution for API usage tracking and billing management.
 
 
 ## 8. Screenshots and explanation of all functionality
@@ -237,7 +228,7 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ## 🏠 UserDashboard (User Main Dashboard)
 
-       <img src="./Screenshots/Dashboard.png" width="800"/>
+       <img src="./screenshots/Dashboard.png" width="800"/>
 
 
 
@@ -336,8 +327,9 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-    <img src="./Screenshots/ApiKeysDashboard.png" width="800"/>
-
+ <p align="center">
+  <img src="./Screenshots/ApiKeysDashboard.png" width="800"/>
+</p>
 
 •	Section to manage API keys. 
 
@@ -352,10 +344,11 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ### Generate API Key
 
-
-	     <img src="./Screenshots/GenerateApiKey.png" width="800"/>
-
-               <img src="./Screenshots/GenerateAPIKeysUccess.png" width="800"/>
+<p align="center">
+  <img src="./Screenshots/GenerateApiKey.png" width="800"/>
+  <br/>
+  <img src="./Screenshots/GenerateAPIKeySUccess.png" width="800"/>
+</p>
 
 
 •	This feature allows users to generate a unique API key for accessing the platform’s APIs. 
@@ -636,13 +629,9 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 ## 🧑‍💼 AdminDashboard (Admin Control Panel)
 
-
-
-
-     <img src="./Screenshots/AdminDashboard.png" width="800"/>
-
-
-
+<p align="center">
+  <img src="./Screenshots/AdminDashboard.png" width="800"/>
+</p>
 
 
 •	The Admin Dashboard is the central interface where administrators monitor the entire system. 
