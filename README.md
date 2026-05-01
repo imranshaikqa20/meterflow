@@ -130,20 +130,9 @@ Version control and collaboration are managed using GitHub, which allows develop
 
 ## 8.Flowchart
 
-```mermaid
-flowchart TD
-    A[User Login] --> B[Generate API Key]
-    B --> C[User Makes API Call]
-    C --> D[Request Interceptor Layer - Capture API Key, Endpoint]
-    D --> E[Validate API Key & Limits]
+<img src="./Screenshots/FlowChat.png" width="800"/>
 
-    E -->|Valid| F[Process Request]
-    E -->|Invalid| G[Reject Request (401)]
 
-    F --> H[Log Usage (PostgreSQL)]
-    H --> I[Aggregate Data]
-    I --> J[Send Data via REST API (/usage/summary)]
-```
 
 ### Explanation 
 
@@ -202,23 +191,23 @@ Finally, both users and admins can analyze the data, monitor API performance, de
 
 
 
-       <img src="./screenshots/LoginPage.png" width="800"/>
+       <img src="./Screenshots/LoginPage.png" width="800"/>
 
 
 
-       <img src="./screenshots/RegisterAsUser.png" width="800"/>
+       <img src="./Screenshots/RegisterAsUser.png" width="800"/>
 
 
 
-        <img src="./screenshots/UserLogin.png" width="800"/>
+        <img src="./Screenshots/UserLogin.png" width="800"/>
 
 
 
-       <img src="./screenshots/UserRegisterSuccess.png" width="800"/>
+       <img src="./Screenshots/UserRegisterSuccess.png" width="800"/>
 
 
 
-        <img src="./screenshots/Dashboard.png" width="800"/>
+        <img src="./Screenshots/Dashboard.png" width="800"/>
 
 
 
