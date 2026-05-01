@@ -145,7 +145,6 @@ flowchart TD
     I --> J[Send Data via REST API (/usage/summary)]
 ```
 
-
 ### Explanation 
 
 The system begins when a user logs into the platform, after which a unique API key is generated for authentication. This API key is used whenever the user makes API requests. Each time an API call is made, it passes through a request interceptor layer, which captures important details such as the API key, endpoint, and request metadata.
