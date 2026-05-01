@@ -228,9 +228,9 @@ The MeterFlow system flow begins when a user logs into the platform using valid 
 
 ## 🏠 UserDashboard (User Main Dashboard)
 
-       <img src="./screenshots/Dashboard.png" width="800"/>
-
-
+<p align="center">
+  <img src="./Screenshots/Dashboard.png" width="800"/>
+</p>
 
 
 •	This is the main landing page users see after logging into the system. 
