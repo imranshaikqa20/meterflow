@@ -487,8 +487,6 @@ The MeterFlow system flow begins when a user logs into the platform using valid 
 
 
 
-<img src="./Screenshots/BeforeBilling.png" width="800"/>
-
 <img src="./Screenshots/UseOption.png" width="800"/>
 
 
